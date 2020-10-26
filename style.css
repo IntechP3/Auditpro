@@ -1,15 +1,13 @@
 .body-actu{
     display: flex;
     align-items: flex-start;
-    height: 100%;
 }
 
 .actu{
-    background-color: darkcyan;
-    width: 25%;
+    width: min-content;
     margin-right: 10px;
-    font-family: fantasy;
     font-variant: normal;
+    border: 1px solid darkslategrey;
 }
 
 .listeActu{
@@ -21,13 +19,14 @@
 .ulActu{
     padding: 10px;
     margin: 0px;
+    text-align: justify;
 }
 
 body{
     padding-left: 2vw;
     padding-right: 2vw;
-    background-color: darkgray;
     margin: 0px;
     height: 100vh;
+    font-family: 'Work Sans', sans-serif;
 }
 
