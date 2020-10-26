@@ -1,0 +1,15 @@
+.Central{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+.pitch{
+    color: darkgrey;
+    font-style: italic;
+}
+
+.txt{
+    padding-left: 420px;
+    padding-right: 420px;
+    font-size: 15px;
+}
