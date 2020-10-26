@@ -11,15 +11,19 @@
 }
 
 .listeActu{
-    list-style-type: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    list-style-type: "-";
+    padding-top: 1px;
+    padding-bottom: 1px;
 }
 
 .ulActu{
     padding: 10px;
     margin: 0px;
+}
+
+p.ulActu{
     text-align: justify;
+    padding: 10px 10px 20px;
 }
 
 body{
