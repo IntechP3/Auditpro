@@ -1,12 +1,33 @@
 .body-actu{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    height: 100%;
 }
 
 .actu{
     background-color: darkcyan;
+    width: 25%;
+    margin-right: 10px;
+    font-family: fantasy;
+    font-variant: normal;
 }
 
 .listeActu{
     list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
+
+.ulActu{
+    padding: 10px;
+    margin: 0px;
+}
+
+body{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background-color: darkgray;
+    margin: 0px;
+    height: 100vh;
+}
+
