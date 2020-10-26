@@ -1,7 +1,6 @@
-.body-actu{
-    display: flex;
-    align-items: flex-start;
-}
+/* ATTENTION : CODE NON COMPLET
+        CE CODE N'EST QUE POUR L'ACTU LATERAL SUR LA PAGE D'ACCEUIL
+        METTEZ CE CODE DANS LE SITE PRINCIPAL AVEC LES ELEMENTS DE ACTULATERAL.HTML POUR QUE CELA FONCTIONNE */
 
 .actu{
     width: min-content;
@@ -25,16 +24,3 @@ p.ulActu{
     text-align: justify;
     padding: 10px 10px 20px;
 }
-
-body{
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin: 0px;
-    height: 100vh;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.widephoto{
-    width: 100%;
-}
-
