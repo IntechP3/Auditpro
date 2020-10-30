@@ -1,0 +1,25 @@
+body{
+    background-image: url("BG.jpg");
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.boxhaut{
+    width: 100%;
+    height: 330px;
+    background-color: #ececec;
+}
+
+.boxmid{
+    width: 100%;
+    height: 420px;
+    background-color: #ececec;
+    opacity: 50%;
+}
+
+.boxbas{
+    width: 100%;
+    height: 330px;
+    background-color: #ececec;
+}
