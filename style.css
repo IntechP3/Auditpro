@@ -23,3 +23,21 @@ body{
     height: 330px;
     background-color: #ececec;
 }
+
+.accueil-basdepage {
+    background-color: cadetblue;
+    position:absolute;
+    bottom:0;
+    color: #fff;
+    width:80%;
+    border-top : 5px solid red;
+    height:80px;
+    text-align:center;
+    font-size: 15px;
+    font-family:Arial;
+    }
+
+#espace {
+margin-left:25px;
+margin-right:25px;
+}
