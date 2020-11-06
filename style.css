@@ -8,11 +8,6 @@ body{
     background-attachment: fixed;
 }
 
-header {
-    width: 100%;
-    display: flex;
-}
-
 .boxhaut{
     width: 100%;
     height: 330px;
@@ -22,8 +17,7 @@ header {
 .boxmid{
     width: 100%;
     height: 420px;
-    background-color: #ececec;
-    opacity: 50%;
+    background: rgba(236,236,236,0.5);
 }
 
 .boxbas{
@@ -32,59 +26,30 @@ header {
     background-color: #ececec;
 }
 
-<<<<<<< HEAD
-.logo{
-    top: 0.3vh; left: 4.8vw;
-    align-self: flex-start;
-    z-index: 9;
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
     float: left;
-}
-
-.nav_bar {
-    display: flex;
-    padding: 0;
-    height: 40px;
-    width: 16%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-    font-size: 15px;
-}
-
-.nav_button1 {
-    display: flex;
+    text-align: center;
+    padding: 10px 10px;
     text-decoration: none;
     color: black;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    transition-duration: 0.2s;
 }
 
-.nav_button2 {
-    display: flex;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    transition-duration: 0.2s;
+.navbar-right {
+    float: right;
+    padding: 10px 10px;
 }
 
-.nav_button1:hover {
-    display: flex;
-    text-decoration: none;
-    background-color: #9bb780;
-    color: white;
+.navbar a:hover {
+    color: forestgreen;
 }
 
-.nav_button2:hover {
-    display: flex;
-    text-decoration: none;
-    background-color: #9bb780;
-    color: white;
+.anoynymat{
+    font-size: 18px;
 }
-
 
 .Central{
     font-family: 'Work Sans', sans-serif;
@@ -108,33 +73,30 @@ header {
     font-size: 15px;
 }
 .link{
-    margin-top: -20px;
 }
 
 .txtlink{
     font-size: 14px;
 }
 
-.linkhref{
+.linkhref {
     font-size: 14px;
     text-decoration: none;
     color: #9bb780;
-=======
+}
+
 .accueil-basdepage {
-    background-color: cadetblue;
-    position:absolute;
-    bottom:0;
+    background-color: #b7b7b7;
     color: #fff;
-    width:80%;
-    border-top : 5px solid red;
+    width:100%;
+    border-top : 5px solid #919191;
     height:80px;
     text-align:center;
     font-size: 15px;
-    font-family:Arial;
+    font-family: 'Work Sans', sans-serif;
     }
 
 #espace {
 margin-left:25px;
 margin-right:25px;
->>>>>>> 7066af49edd7dea091cd0d122025acf3b4b633be
 }
