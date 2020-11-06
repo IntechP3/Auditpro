@@ -32,6 +32,7 @@ header {
     background-color: #ececec;
 }
 
+<<<<<<< HEAD
 .logo{
     top: 0.3vh; left: 4.8vw;
     align-self: flex-start;
@@ -118,4 +119,22 @@ header {
     font-size: 14px;
     text-decoration: none;
     color: #9bb780;
+=======
+.accueil-basdepage {
+    background-color: cadetblue;
+    position:absolute;
+    bottom:0;
+    color: #fff;
+    width:80%;
+    border-top : 5px solid red;
+    height:80px;
+    text-align:center;
+    font-size: 15px;
+    font-family:Arial;
+    }
+
+#espace {
+margin-left:25px;
+margin-right:25px;
+>>>>>>> 7066af49edd7dea091cd0d122025acf3b4b633be
 }
