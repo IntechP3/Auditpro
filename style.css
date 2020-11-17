@@ -62,8 +62,6 @@
     padding-right: 10vw;
 
 }
-.link{
-}
 
 .txtlink{
     font-size: 14px;
@@ -87,7 +85,7 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
@@ -97,11 +95,12 @@
     align-content: center;
     align-items: center;
     flex-direction: row;
-    flex-basis: 25%;
+    flex-basis: 20%;
 }
 
 #textMenu{
     transition: 0.5s;
+    white-space: nowrap;
 }
 
 #imgMenu{
@@ -116,13 +115,9 @@
     background-color: #ececec;
 }
 
-#itemMenu{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-basis: 25%;
+.noDeco{
+    text-decoration: none;
+    color: initial;
 }
 
 #textMenu{
