@@ -111,7 +111,7 @@
 
 .boxbas{
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     background-color: #ececec;
 }
 
@@ -144,12 +144,24 @@
     background-color: rgb(165, 164, 164);
     color: #fff;
     border-top : 5px solid rgb(114, 114, 114);
-    position: sticky;
-    justify-content: center;
+    position: absolute;
+    width: 100%;
     bottom: 0;
     text-align:center;
     font-size: 15px;
-    height: 10vh;
+    height: 8vh;
+}
+
+.name{
+    margin-top: 1vh;
+}
+
+.coos{
+    margin-top: 0.3vh;
+}
+
+.habi{
+    margin-top: 0.3vh;
 }
 
 #espace {
