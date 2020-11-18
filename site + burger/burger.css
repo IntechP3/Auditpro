@@ -1,0 +1,333 @@
+    body{
+    background-image: url("BG.jpg");
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 auto;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.boxhaut{
+    width: 100%;
+    height: 30vh;
+    background-color: #ececec;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-right {
+    float: right;
+    padding: 10px 10px;
+}
+
+.navbar a:hover {
+    color: forestgreen;
+}
+
+.anoynymat{
+    font-size: 18px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.Central{
+    text-align: center;
+}
+
+.bvn{
+    font-weight: normal;
+    font-size: 1.8vw;
+}
+
+.pitch{
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.txt{
+    font-size: 0.85vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+
+}
+
+.link{
+    font-size: 0.8vw;
+}
+
+.linkhref {
+    font-size: 0.8vw;
+    text-decoration: none;
+    color: #9bb780;
+}
+
+.anoynymat{
+    text-align: center;
+    justify-content: center;
+    font-size: 0.8vw;
+}
+
+.boxmid{
+    width: 100%;
+    height: 40vh;
+    background: rgba(236,236,236,0.5);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#itemMenu{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-basis: 20%;
+}
+
+#textMenu{
+    transition: 0.5s;
+    white-space: nowrap;
+}
+
+.boxbas{
+    width: 100%;
+    height: 30vh;
+    background-color: #ececec;
+}
+
+.noDeco{
+    text-decoration: none;
+    color: initial;
+}
+
+#textMenu{
+    transition: 0.5s;
+}
+
+#imgMenu{
+    object-fit: scale-down;
+    margin-right: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    filter: opacity(0.85);
+    transition: 0.5s;
+
+}
+
+.test1:hover h1.test1{
+    transform:scale(1.03);
+}
+
+.test1:hover img.test1{
+    filter: opacity(1) !important ;
+    transform:scale(1.03) rotate(5deg);
+}
+
+.footer_accueil {
+    background-color: rgb(165, 164, 164);
+    color: #fff;
+    border-top : 5px solid rgb(114, 114, 114);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align:center;
+    font-size: 15px;
+    height: 8vh;
+}
+
+.name{
+    margin-top: 1vh;
+}
+
+.coos{
+    margin-top: 0.3vh;
+}
+
+.habi{
+    margin-top: 0.3vh;
+}
+
+#espace {
+    margin-left:25px;
+    margin-right:25px;
+}
+
+    @media screen and (max-width: 480px)
+    {
+        .Central
+        {
+            font-size: 8px;
+        }
+
+        .link{
+            font-size: 10px;
+        }
+
+        .bvn
+        {
+            font-size: 15px;
+        }
+
+        .txt
+        {
+            font-size: 10px;
+            width: 90%;
+            text-align: justify;
+            padding-left: 2vh;
+        }
+
+        .anoynymat {
+            font-size: 9px;
+            width: 90%;
+            text-align: center;
+        }
+
+        
+    }
+/* Menu burger */
+
+        #menuToggle
+        {
+            display: block;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            z-index: 1;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        #menuToggle a
+        {
+            text-decoration: none;
+            color: #232323;
+            transition: color 0.3s ease;
+        }
+
+        #menuToggle a:hover
+        {
+            color: forestgreen;
+        }
+
+
+        #menuToggle input
+        {
+            display: block;
+            width: 40px;
+            height: 32px;
+            position: absolute;
+            top: -7px;
+            left: -5px;
+            cursor: pointer;
+            opacity: 0; /* hide this */
+            z-index: 2; /* and place it over the hamburger */
+            -webkit-touch-callout: none;
+        }
+
+        /*
+         * Just a quick hamburger
+         */
+        #menuToggle span
+        {
+            display: block;
+            width: 33px;
+            height: 4px;
+            margin-bottom: 5px;
+            position: relative;
+            background: #cdcdcd;
+            border-radius: 3px;
+            z-index: 1;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            opacity 0.55s ease;
+        }
+
+        #menuToggle span:first-child
+        {
+            transform-origin: 0% 0%;
+        }
+
+        #menuToggle span:nth-last-child(2)
+        {
+            transform-origin: 0% 100%;
+        }
+
+        /* 
+         * Transform all the slices of hamburger
+         * into a crossmark.
+         */
+        #menuToggle input:checked ~ span
+        {
+            opacity: 1;
+            transform: rotate(45deg) translate(-2px, -1px);
+            background: #232323;
+        }
+
+        /*
+         * But let's hide the middle one.
+         */
+        #menuToggle input:checked ~ span:nth-last-child(3)
+        {
+            opacity: 0;
+            transform: rotate(0deg) scale(0.2, 0.2);
+        }
+
+        /*
+         * Ohyeah and the last one should go the other direction
+         */
+        #menuToggle input:checked ~ span:nth-last-child(2)
+        {
+            transform: rotate(-45deg) translate(0, -1px);
+        }
+
+        /*
+         * Make this absolute positioned
+         * at the top left of the screen
+         */
+        #menu
+        {
+            position: absolute;
+            width: 300px;
+            margin: -100px 0 0 -50px;
+            padding: 50px;
+            padding-top: 125px;
+            background: #ededed;
+            list-style-type: none;
+            -webkit-font-smoothing: antialiased;
+
+        /* to stop flickering of text in safari */
+            transform-origin: 0% 0%;
+            transform: translate(-100%, 0);
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        }
+
+        #menu li
+        {
+            padding: 10px 0;
+            font-size: 22px;
+        }
+
+        /*
+         * And let's slide it in from the left
+         */
+
+        #menuToggle input:checked ~ ul
+        {
+            transform: none;
+        }
