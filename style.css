@@ -1,10 +1,10 @@
 body{
     font-family: 'Work Sans', sans-serif;
     background-color: #ececec;
-    margin: 0px;
+    margin: 0;
 }
 
- /*ATTENTION : APPLIQUER CETTE CLASSE A TOUT LIEN AFIN DE SUPPRIMER LA DECORATION DU LIEN, NE PAS CREER UNE AUTRE CLASSE POUR CELA*/
+ /* ATTENTION : APPLIQUER CETTE CLASSE A TOUT LIEN AFIN DE SUPPRIMER LA DECORATION DU LIEN, NE PAS CREER UNE AUTRE CLASSE POUR CELA */
 .noDeco{text-decoration: none; color: initial;}
 
 
@@ -30,6 +30,7 @@ header > .navbar-right > a {
 header > .navbar-right > a:hover {color: forestgreen;}
 
 /* Fin code header */
+
 /* Début code texte de bienvenue*/
 
 #bienvenue{
@@ -40,8 +41,8 @@ header > .navbar-right > a:hover {color: forestgreen;}
 
 #bienvenue > h1{
     font-weight: normal;
-    font-size: 1.7vw;
-    margin: 2vh;
+    font-size: 1.4vw;
+    margin: 0.5vh;
 }
 
 #bienvenue > p{
@@ -52,11 +53,12 @@ header > .navbar-right > a:hover {color: forestgreen;}
 
 #bienvenue > p > a{color: forestgreen;} #bienvenue > p > a:hover{color: rgb(22, 94, 22);}
 
-/*F in texte de bienvenue */
+/*Fin texte de bienvenue */
+
 /* Début menu */
 
 #menu{
-    background-image: url("BG.png");
+    background-image: url("Photos/BG.png");
     background-position: 0 30%;
     background-repeat: no-repeat;
     display: grid;
@@ -88,7 +90,7 @@ header > .navbar-right > a:hover {color: forestgreen;}
 
 footer{
     position: relative;
-    bottom: -39vh;
+    bottom: -30vh;
     width: 100%;
     color: white;
     background-color: rgb(165, 164, 164);
