@@ -89,8 +89,8 @@ header > .navbar-right > a:hover {color: forestgreen;}
 /* Fin menu */
 
 footer{
-    position: relative;
-    bottom: -30vh;
+    position: absolute;
+    bottom: 0;
     width: 100%;
     color: white;
     background-color: rgb(165, 164, 164);
@@ -104,3 +104,4 @@ footer{
 footer > p{
     margin: 0.3%;
 }
+
