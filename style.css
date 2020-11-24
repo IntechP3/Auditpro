@@ -89,6 +89,7 @@ header > .navbar-right > a:hover {color: forestgreen;}
 #menu > a:hover > img{transform: scale(1.02) rotate(4deg);}
 
 /* Fin menu */
+/* début footer */
 
 footer{
     position: absolute;
@@ -118,22 +119,22 @@ footer > p{
     }
 }
 
-@media (max-width: 550px){
+@media (max-width: 550px){ /*code pour width <= 550 px*/
     .hideMobile{
         display: none;
     }
     header > .navbar-right{
-        grid-template-columns: 0.4fr 0.7fr;
+        grid-template-columns: 0.4fr 0.7fr 0.2fr;
     }
     header > .navbar-right > a{
         padding-left: 5vw;
     }
     #menu{
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
-@media (max-width: 1500px){
+@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande*/
     #bienvenue > h1{
         font-size: 21px;
     }
