@@ -129,7 +129,7 @@ footer > p > br{
 
 @media (max-width: 950px){
     #menu{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     #menu > a > img{
         height: 190px;
@@ -167,6 +167,9 @@ footer > p > br{
     #bienvenue > p{
         font-size: 13.5px;
         max-width: 90%;
+    }
+    #menu{
+        grid-template-columns: repeat(3,1fr);
     }
     #menu > a > p{
         font-size: 18px;
