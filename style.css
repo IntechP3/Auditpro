@@ -81,6 +81,8 @@ header > .navbar-right > a:hover {color: forestgreen;}
     object-fit: contain;
     max-width: 120px;
     max-height: 120px;
+    width: 20vw;
+    height: 20vh;
     transition: 0.5s;
 }
 
@@ -103,5 +105,49 @@ footer{
 
 footer > p{
     margin: 0.3%;
+    font-size: 0.7vw;
+    text-align: center;
 }
 
+
+@media (max-height: 890px){ /* Code pour footer responsif*/
+    footer{
+        position: relative;
+        bottom: -20vh;
+
+    }
+}
+
+@media (max-width: 550px){
+    .hideMobile{
+        display: none;
+    }
+    header > .navbar-right{
+        grid-template-columns: 0.4fr 0.7fr;
+    }
+    header > .navbar-right > a{
+        padding-left: 5vw;
+    }
+    #menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1500px){
+    #bienvenue > h1{
+        font-size: 21px;
+    }
+    #bienvenue > p{
+        font-size: 13.5px;
+    }
+    #menu > a > p{
+        font-size: 18px;
+    }
+    #menu > a > img{
+        width: 7.5vw;
+        height: 7.5vw;
+    }
+    footer > p{
+        font-size: 10.5px;
+    }
+}
