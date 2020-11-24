@@ -131,6 +131,10 @@ footer > p > br{
     #menu{
         grid-template-columns: repeat(3, 1fr);
     }
+    #menu > a > img{
+        height: 190px;
+        width: 190px;
+    }
 }
 
 @media (max-width: 550px){ /*code pour width <= 550 px*/
@@ -144,6 +148,7 @@ footer > p > br{
         padding-left: 5vw;
     }
     #menu{
+        background: linear-gradient(132deg, rgba(171,246,247,0.8) 5%, rgba(128,232,186,0.8) 94%);
         grid-template-columns: repeat(1, 1fr);
     }
     footer > p > br{
@@ -161,9 +166,6 @@ footer > p > br{
     }
     #menu > a > p{
         font-size: 18px;
-    }
-    #menu > a > img{
-        height: 7.5vw;
     }
     footer > p{
         font-size: 10.5px;
