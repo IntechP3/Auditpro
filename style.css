@@ -127,6 +127,25 @@ footer > p > br{
     }
 }
 
+@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande*/
+    #bienvenue > h1{
+        font-size: 21px;
+    }
+    #bienvenue > p{
+        font-size: 13.5px;
+        max-width: 90%;
+    }
+    #menu{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #menu > a > p{
+        font-size: 18px;
+    }
+    footer > p{
+        font-size: 10.5px;
+    }
+}
+
 @media (max-width: 950px){
     #menu{
         grid-template-columns: repeat(2, 1fr);
@@ -148,7 +167,8 @@ footer > p > br{
         padding-left: 5vw;
     }
     #menu{
-        background: rgba(114, 114, 114,0.5);
+        /*background: rgba(114, 114, 114,0.5);*/
+        background-image: url("./Photos/BG mobile.png");
         grid-template-columns: repeat(1, 80%);
         justify-content: center;
     }
@@ -157,24 +177,5 @@ footer > p > br{
     }
     footer > p > br{
         display: inline;
-    }
-}
-
-@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande*/
-    #bienvenue > h1{
-        font-size: 21px;
-    }
-    #bienvenue > p{
-        font-size: 13.5px;
-        max-width: 90%;
-    }
-    #menu{
-        grid-template-columns: repeat(3,1fr);
-    }
-    #menu > a > p{
-        font-size: 18px;
-    }
-    footer > p{
-        font-size: 10.5px;
     }
 }
