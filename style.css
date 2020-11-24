@@ -148,8 +148,12 @@ footer > p > br{
         padding-left: 5vw;
     }
     #menu{
-        background: linear-gradient(132deg, rgba(171,246,247,0.8) 5%, rgba(128,232,186,0.8) 94%);
-        grid-template-columns: repeat(1, 1fr);
+        background: rgba(114, 114, 114,0.5);
+        grid-template-columns: repeat(1, 80%);
+        justify-content: center;
+    }
+    #menu > a{
+        grid-template-columns: 50% 50%;
     }
     footer > p > br{
         display: inline;
