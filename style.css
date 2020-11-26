@@ -1,4 +1,4 @@
-body{
+body{ /* Code appliqué à toute la page */
     font-family: 'Work Sans', sans-serif;
     background-color: #ececec;
     margin: 0;
@@ -10,18 +10,18 @@ body{
 
 /* Début code header */
 
-header{
+header{ /* Padding de tout le header */
     padding: 1% 1.5%;
 }
 
-.navbar-right { 
+.navbar-right { /* Code navbar (boutons) */
     float: right;
     display: grid;
     grid-template-columns: 0.4fr 0.7fr 1fr;
     padding-top: 1.1vh;
 }
 
-header > .navbar-right > a {
+header > .navbar-right > a { /* Code textes navbar */
     float: left;
     text-align: center;
     text-decoration: none;
@@ -34,19 +34,19 @@ header > .navbar-right > a:hover {color: forestgreen;}
 
 /* Début code texte de bienvenue*/
 
-#bienvenue{
+#bienvenue{ /* Code de la DIV de bienvenue */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#bienvenue > h1{
+#bienvenue > h1{ /* Code titre de bienvenue */
     font-weight: normal;
     font-size: 1.4vw;
     margin: 0.5vh;
 }
 
-#bienvenue > p{
+#bienvenue > p{ /* Code paragraphes*/
     font-size: 0.9vw;
     max-width: 70%;
     text-align: center;
@@ -73,12 +73,12 @@ header > .navbar-right > a:hover {color: forestgreen;}
     padding: 2%;
     align-items: center;
 }
-#menu > a > p{
+#menu > a > p{ /* Code texte bouton */
     font-size: 1.2vw;
     font-weight: 550;
     transition: 0.5s;
 }
-#menu > a > img{
+#menu > a > img{ /* Code image bouton */
     object-fit: contain;
     max-width: 120px;
     max-height: 120px;
@@ -88,12 +88,12 @@ header > .navbar-right > a:hover {color: forestgreen;}
     transition: 0.5s;
 }
 
-#menu > a:hover > img{transform: scale(1.02) rotate(4deg); filter: opacity(1);}
+#menu > a:hover > img{transform: scale(1.02) rotate(4deg); filter: opacity(1);} /* Code hover bouton */
 
 /* Fin menu */
 /* début footer */
 
-footer{
+footer{ /* Code CSS footer */
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -106,13 +106,13 @@ footer{
     align-items: center;
 }
 
-footer > p{
+footer > p{ /* Code paragraphes dans le footer */
     margin: 0.3%;
     font-size: 0.7vw;
     text-align: center;
 }
 
-footer > p > br{
+footer > p > br{ /* Non-affichage des espaces dans le footer */
     display: none;
 }
 
