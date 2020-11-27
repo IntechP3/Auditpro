@@ -112,14 +112,14 @@ footer > p{ /* Code paragraphes dans le footer */
     text-align: center;
 }
 
-footer > p > br{ /* Non-affichage des espaces dans le footer */
+footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
     display: none;
 }
 
 /* fin footer */
 /* début Media query */
 
-@media (max-height: 890px){ /* Code pour footer responsif*/
+@media (max-height: 890px){ /* Code pour footer responsif format petit écran*/
     footer{
         position: relative;
         bottom: -20vh;
@@ -127,7 +127,7 @@ footer > p > br{ /* Non-affichage des espaces dans le footer */
     }
 }
 
-@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande*/
+@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande format 4:3 */
     #bienvenue > h1{
         font-size: 21px;
     }
@@ -146,7 +146,7 @@ footer > p > br{ /* Non-affichage des espaces dans le footer */
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 950px){ /*format petit écran*/
     #menu{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -156,8 +156,8 @@ footer > p > br{ /* Non-affichage des espaces dans le footer */
     }
 }
 
-@media (max-width: 550px){ /*code pour width <= 550 px*/
-    .hideMobile{
+@media (max-width: 550px){ /*code pour width <= 550 px* format téléphone*/
+    .hideMobile{ /*cacher un bouton */
         display: none;
     }
     header > .navbar-right{
@@ -167,15 +167,14 @@ footer > p > br{ /* Non-affichage des espaces dans le footer */
         padding-left: 5vw;
     }
     #menu{
-        /*background: rgba(114, 114, 114,0.5);*/
-        background-image: url("./Photos/BG mobile.png");
+        background-image: url("./Photos/BG mobile.png"); /* New image */
         grid-template-columns: repeat(1, 80%);
         justify-content: center;
     }
     #menu > a{
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 50% 50%; /* même taille pour l'image et le txt */
     }
     footer > p > br{
-        display: inline;
+        display: inline; /* afficher les sauts de ligne dans le footer */
     }
 }
