@@ -1,0 +1,36 @@
+footer{ /* Code CSS footer */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: rgb(165, 164, 164);
+    border-top : 5px solid rgb(114, 114, 114);    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > p{ /* Code paragraphes dans le footer */
+    margin: 0.3%;
+    font-size: 0.7vw;
+    text-align: center;
+}
+
+footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
+    display: none;
+}
+
+@media (max-height: 890px){ /* Code pour footer responsif format petit écran*/
+    footer{
+        position: relative;
+        bottom: -20vh;
+
+    }
+}
+
+@media (max-width: 1500px){ /*code pour garder la taille du texte assez grande format 4:3 */
+    footer > p{
+        font-size: 10.5px;
+    }
+}

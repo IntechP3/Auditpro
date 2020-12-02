@@ -160,6 +160,9 @@ footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
     .hideMobile{ /*cacher un bouton */
         display: none;
     }
+    .showMobile{ /*Afficher des elements en mobile ATTENTION : N'UTILISER QUE SUR DES SAUTS DE LIGNES ET AUTRES CHOSES SIMPLES*/
+        display: inline; 
+    }
     header > .navbar-right{
         grid-template-columns: 0.4fr 0.7fr 0.2fr;
     }
@@ -173,8 +176,5 @@ footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
     }
     #menu > a{
         grid-template-columns: 50% 50%; /* même taille pour l'image et le txt */
-    }
-    footer > p > br{
-        display: inline; /* afficher les sauts de ligne dans le footer */
     }
 }
