@@ -86,7 +86,7 @@
 
 @media (max-width: 550px){ /*code pour width <= 550 px* format téléphone*/
     #menu{
-        background-image: url("./Photos/BG mobile.png"); /* New image */
+        background-image: url("../Photos/BG mobile.png"); /* New image */
         grid-template-columns: repeat(1, 80%);
         justify-content: center;
     }
