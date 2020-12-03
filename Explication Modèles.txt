@@ -1,1 +1,4 @@
-Modèle 1 : Page simple avec 2 textes et séparateur de texte vertical
+Modèle1 : Page simple avec 2 textes et séparateur de texte vertical
+Modèle2 : Page simple avec 1 texte gauche et photo sur la droite
+Modèle3 :  [ Texte Image ]
+	  [ Image Texte ]
