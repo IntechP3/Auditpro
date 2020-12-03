@@ -1,3 +1,9 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+
 body{ /* Code appliqué à toute la page */
     font-family: 'Work Sans', sans-serif;
     background-color: #ececec;
