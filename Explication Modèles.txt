@@ -1,0 +1,1 @@
+Modèle 1 : Page simple avec 2 textes et séparateur de texte vertical
