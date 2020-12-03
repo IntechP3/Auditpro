@@ -23,8 +23,7 @@ footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
 
 @media (max-height: 890px){ /* Code pour footer responsif format petit écran*/
     footer{
-        position: relative;
-        bottom: -20vh;
+        position: absolute;
 
     }
 }
