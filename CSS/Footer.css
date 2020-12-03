@@ -21,13 +21,6 @@ footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
     display: none;
 }
 
-@media (max-height: 890px){ /* Code pour footer responsif format petit écran*/
-    footer{
-        position: absolute;
-
-    }
-}
-
 @media (max-width: 1500px){ /*code pour garder la taille du texte assez grande format 4:3 */
     footer > p{
         font-size: 10.5px;
