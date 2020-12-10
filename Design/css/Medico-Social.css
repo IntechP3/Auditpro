@@ -10,10 +10,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2%;
-    width: 80%;
+    padding: 2% 2%;
+    width: 90vw;
     border-bottom: solid 2px grey;
-    font-size: 1.1vw;
 }
 
 #txt2{
@@ -21,8 +20,7 @@
     flex-direction: column;
     align-items: center;
     padding: 2% 2%;
-    width: 80%;
-    font-size: 1.1vw;
+    width: 90vw;
 }
 
 #separateur{
@@ -31,11 +29,21 @@
     border-radius: 1px;
 }
 
-#txt > h1{
-    font-size: 1.4vw;
+#basis > div > p{
+    font-size: 1vw;
+    line-height: 140%;
 }
 
-#txt > p{
-    font-size: 0.9vw;
-    text-align: center;
+#basis > div > h1{
+    font-size: 1.6vw;
+    color: forestgreen;
+}
+
+@media(max-width : 1700px){
+    #basis > div > p{
+        font-size: 17px;
+    }
+    #basis > div > h1{
+        font-size: 27.2px;
+    }
 }
