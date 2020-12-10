@@ -1,30 +1,41 @@
-#img1{
+#basis{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 1%;
+    padding: 0 3%;
 
   }
   
-#img1 > img{
-    flex-basis: 0.5;
-    height :300px;
-    width :300px;
+#basis > img{
+    height :500px;
+    width :500px;
     object-fit : contain;
   }
-  
-#img1 > p{
-    flex-basis: 2;
-  }
 
-#img1 > div{
+#basis > #txt > p{
+    text-align: justify;
+    text-align-last: center;
+}
+#basis > div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-    padding: 2%;
+    padding: 5%;
 }
 
 h1{
-    color: green;
+    font-size: 1.6vw;
+    color: forestgreen;
+}
+
+@media(max-width : 1700px){
+    #basis > div > p{
+        font-size: 4vw;
+    }
+    #basis > div > h1{
+        font-size: 10vw;
+    }
+    #imgschool{
+        display: none;
+    }
 }
