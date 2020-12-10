@@ -1,27 +1,30 @@
-#txt{
+#img1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1%;
+
+  }
+  
+#img1 > img{
+    flex-basis: 0.5;
+    height :300px;
+    width :300px;
+    object-fit : contain;
+  }
+  
+#img1 > p{
+    flex-basis: 2;
+  }
+
+#img1 > div{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2%;
     text-align: center;
-    width: 95%;
-    font-size: 1.1vw;
+    padding: 2%;
 }
 
-.Ecole{
-    height:20px;
-}
-
-#txt > h1{
+h1{
     color: green;
-}
-
-
-#txt > h1{
-    font-size: 1.4vw;
-}
-
-#txt > p{
-    font-size: 0.9vw;
-    text-align: center;
 }
