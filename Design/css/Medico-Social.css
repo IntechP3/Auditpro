@@ -1,21 +1,28 @@
-div{
+#basis{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    text-align: justify;
 }
 
 #txt1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2%;
-    flex-basis: 50%;
+    padding: 2% 2%;
+    width: 80%;
+    border-bottom: solid 2px grey;
+    font-size: 1.1vw;
 }
 
 #txt2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 2%;
-    flex-basis: 50%;
+    padding: 2% 2%;
+    width: 80%;
+    font-size: 1.1vw;
 }
 
 #separateur{
