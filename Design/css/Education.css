@@ -1,23 +1,19 @@
-div{
-    display: flex;
-}
-
-#txt1{
+#txt{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 2%;
-    flex-basis: 50%;
-    float: right;
+    text-align: center;
+    width: 95%;
+    font-size: 1.1vw;
 }
 
-#txt2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 2%;
-    flex-basis: 50%;
-    float: right;
+.Ecole{
+    height:20px;
+}
+
+#txt > h1{
+    color: green;
 }
 
 
