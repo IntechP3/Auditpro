@@ -1,8 +1,8 @@
 /* Début code texte de bienvenue*/
 
 #bienvenue{ /* Code de la DIV de bienvenue */
-    display: flex;
-    flex-direction: column;
+    display: flex; /* Méthode Flex */
+    flex-direction: column; /* Pour diriger les textes en colonne et non en ligne */
     align-items: center;
 }
 
@@ -15,10 +15,8 @@
 #bienvenue > p{ /* Code paragraphes*/
     font-size: 0.9vw;
     max-width: 70%;
-    text-align: center;
+    text-align: center; /* Alignement des textes au centre */
 }
-
-#bienvenue > p > a{color: forestgreen;} #bienvenue > p > a:hover{color: rgb(22, 94, 22);}
 
 /*Fin texte de bienvenue */
 
@@ -26,16 +24,16 @@
 
 #menu{
     background-image: url("../img/BG.png");
-    background-position: 0 30%;
+    background-position: 0 30%; /* Taille du background sur la page */
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: grid; /* Méthode Grid, nous créeons des colonnes où nous allons ettre nos différents boutons */
+    grid-template-columns: repeat(4, 1fr); /* Nous partons sur 4 colonnes faisant 1 fraction chacune */
     grid-auto-rows: auto;
     padding: 2vh 0;
 }
 #menu > a{ /* Code élément menu */
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
+    grid-template-columns: 0.5fr 1fr; /* Icone : 0.5fr - Texte : 1fr */
     padding: 2%;
     align-items: center;
 }
@@ -51,7 +49,7 @@
     width: 20vw;
     height: 20vh;
     filter: opacity(0.8);
-    transition: 0.5s;
+    transition: 0.5s; /* Durée de la transition */
 }
 
 #menu > a:hover > img{transform: scale(1.02) rotate(4deg); filter: opacity(1);} /* Code hover bouton */

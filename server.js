@@ -63,7 +63,7 @@ const server = http.createServer((request, response) => {
     } else {/* Si l'URL n'est pas la bonne, le serveur renvoie une erreur */
         response.statusCode = 404; /* Définit le type d'erreur */
         response.setHeader('Content-Type', 'text/plain'); /* Définit le type de contenu, en l'occurrence un simple texte */
-        response.end("Erreur 404, tu t'es trompé mec.");
+        response.end("Erreur 404, tu t'es trompé mec."); /* Renvoie un texte qui montre l'erreur */
     }
 });
 
