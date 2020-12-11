@@ -21,4 +21,7 @@ body{ /* Code appliqué à toute la page */
     .showMobile{ /*Afficher des elements en mobile ATTENTION : N'UTILISER QUE SUR DES SAUTS DE LIGNES ET AUTRES CHOSES SIMPLES*/
         display: inline; 
     }
+    .txtMobile{
+        display: none;
+    }
 }
