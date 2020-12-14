@@ -8,12 +8,12 @@
 
 #bienvenue > h1{ /* Code titre de bienvenue */
     font-weight: normal;
-    font-size: 1.4vw;
+    font-size: 26.88px;
     margin: 0.5vh;
 }
 
 #bienvenue > p{ /* Code paragraphes*/
-    font-size: 0.9vw;
+    font-size: 17.28px;
     max-width: 70%;
     text-align: center; /* Alignement des textes au centre */
 }
@@ -38,7 +38,7 @@
     align-items: center;
 }
 #menu > a > p{ /* Code texte bouton */
-    font-size: 1.2vw;
+    font-size: 23.04px;
     font-weight: 550;
     transition: 0.5s;
 }
