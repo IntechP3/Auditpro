@@ -57,7 +57,7 @@
 
 /* Fin menu */
 
-@media (max-width: 1500px){
+@media (max-width: 1280px){
     #bienvenue > h1{
         font-size: 21px;
     }
@@ -83,7 +83,7 @@
     }
 }
 
-@media (max-width: 550px){ /*code pour width <= 550 px* format téléphone*/
+@media (max-width: 640px){ /*code pour width <= 550 px* format téléphone*/
     #menu{
         background-image: url("../img/BG_mobile.png"); /* New image */
         grid-template-columns: repeat(1, 80%);

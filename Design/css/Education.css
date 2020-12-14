@@ -25,16 +25,28 @@
 }
 
 h1{
-    font-size: 1.6vw;
+    font-size: 30.72px;
     color: forestgreen;
 }
 
-@media(max-width : 1500px){
+@media(max-width : 1280px){
     #basis > div > p{
         font-size: 17px;
     }
     #basis > div > h1{
         font-size: 27.2px;
+    }
+    #imgschool{
+        display: none;
+    }
+}
+
+@media(max-width : 640px){
+    #basis > div > p{
+        font-size: 13px;
+    }
+    #basis > div > h1{
+        font-size: 25px;
     }
     #imgschool{
         display: none;
