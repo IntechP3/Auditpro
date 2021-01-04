@@ -16,7 +16,7 @@ const server = http.createServer((request, response) => {
         });
 
     } else if (request.url === "/Medico-Social") {
-        fs.readFile('./Medico-Social.html', function (error, buffer) {
+        fs.readFile('./MedicInfos.html', function (error, buffer) {
 
             if (error) throw error;
             response.writeHead(200, {"Content-Type": "text/html"});
@@ -42,20 +42,20 @@ const server = http.createServer((request, response) => {
             response.end();
         });
 
-    } else if (request.url === "/Design/" + reqUrl[2] + "/" + reqUrl[3]) {/* On récupère les CSS de notre dossier "css" afin de les appliquer */
+    } else if (request.url === "/Design/" + reqUrl[2] + "/" + reqUrl[3]) {/* On récupère les CSS et images de notre dossier "css" afin de les appliquer */
         fs.readFile("./Design/" + reqUrl[2] + "/" + reqUrl[3], function (error, buffer) {
 
             if (error) throw error; /* Si erreur, le serveur l'affiche */
-            response.writeHead(200, {"Content-Type": "text/" + reqUrl[2]}); /* Le serveur définit le type de contenu */
+            response.writeHead(200, {"Content-Type": "text/css"}); /* Le serveur définit le type de contenu */
             response.write(buffer); /* Le buffer à une fonction de stockage */
-            response.end(); /* Le serveur a renvoyé la page */
-        });
+            response.end(); /* Le serveur a renvoyé la² page */
+        })
 
-    } else if (request.url === "/Design/" + reqUrl[2] + "/Icones/" + reqUrl[4]) {/* On récupère les images/icones de notre dossier "img" afin de les appliquer */
-        fs.readFile("./Design/" + reqUrl[2] + "/Icones/" + reqUrl[4], function (error, buffer) {
+    } else if (request.url === "/Design" + "/img" + "/Icones/" + reqUrl[4]) {/* On récupère les images/icones de notre dossier "img" afin de les appliquer */
+        fs.readFile("./Design/" + "/img" + "/Icones/" + reqUrl[4], function (error, buffer) {
 
             if (error) throw error;
-            response.writeHead(200, {"Content-Type": "text/" + reqUrl[2]});
+            response.writeHead(200, {"Content-Type": "img"});
             response.write(buffer);
             response.end();
         });
@@ -63,7 +63,7 @@ const server = http.createServer((request, response) => {
     } else {/* Si l'URL n'est pas la bonne, le serveur renvoie une erreur */
         response.statusCode = 404; /* Définit le type d'erreur */
         response.setHeader('Content-Type', 'text/plain'); /* Définit le type de contenu, en l'occurrence un simple texte */
-        response.end("Erreur 404, mauvaise URL."); /* Renvoie un texte qui montre l'erreur */
+        response.end("Erreur, mauvaise URL."); /* Renvoie un texte qui montre l'erreur */
     }
 });
 

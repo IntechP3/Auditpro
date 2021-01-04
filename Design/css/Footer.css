@@ -27,8 +27,6 @@ footer > p > br{ /* Non-affichage des espaces dans le footer en affichage PC */
     footer > p{
         font-size: 2vw;
     }
-    footer{
-    }
 }
 
 @media(max-width:1920px) and (max-height:830px){
