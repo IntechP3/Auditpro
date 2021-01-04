@@ -26,11 +26,9 @@
 
 
 #menu{
-    border: solid;
-    background-color: lightgrey;;
     margin-top: 2vh;
-    background-color: #e2e2e2;
     display: grid;
+    background-color: #e5e5e5;
     grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     padding: 2vh 0;
@@ -54,6 +52,24 @@
     height: 20vh;
     filter: opacity(0.8);
     transition: 0.5s;
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2%;
+    width: 90vw;
+}
+
+#basis > div > p{
+    font-size: 19.2px;
+    line-height: 140%;
+}
+
+#basis > div > h1{
+    font-size: 30.72px;
+    color: forestgreen;
 }
 
 #menu > a:hover > img{transform: scale(1.02) rotate(4deg); filter: opacity(1);} /* Code hover bouton */

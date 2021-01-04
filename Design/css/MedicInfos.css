@@ -1,21 +1,9 @@
-#basis{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: justify;
-    text-align-last: center;
-}
-
 #txt1{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2% 2%;
     width: 90vw;
-}
-
-hr{
-    width: 70%;
 }
 
 #txt2{
@@ -35,22 +23,4 @@ hr{
 #basis > div > h1{
     font-size: 30.72px;
     color: forestgreen;
-}
-
-@media(max-width : 1280px){
-    #basis > div > p{
-        font-size: 17px;
-    }
-    #basis > div > h1{
-        font-size: 27.2px;
-    }
-}
-
-@media(max-width : 640px){
-    #basis > div > p{
-        font-size: 13px;
-    }
-    #basis > div > h1{
-        font-size: 25px;
-    }
 }

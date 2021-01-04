@@ -16,7 +16,7 @@ const server = http.createServer((request, response) => {
         });
 
     } else if (request.url === "/Medico-Social") {
-        fs.readFile('./MedicInfos.html', function (error, buffer) {
+        fs.readFile('./Medico-Social.html', function (error, buffer) {
 
             if (error) throw error;
             response.writeHead(200, {"Content-Type": "text/html"});
@@ -35,6 +35,42 @@ const server = http.createServer((request, response) => {
 
     } else if (request.url === "/Entreprise") {
         fs.readFile('./Entreprise.html', function (error, buffer) {
+
+            if (error) throw error;
+            response.writeHead(200, {"Content-Type": "text/html"});
+            response.write(buffer);
+            response.end();
+        });
+
+    } else if (request.url === "/Access") {
+        fs.readFile('./AccesSecu.html', function (error, buffer) {
+
+            if (error) throw error;
+            response.writeHead(200, {"Content-Type": "text/html"});
+            response.write(buffer);
+            response.end();
+        });
+
+    } else if (request.url === "/InfosEduc") {
+        fs.readFile('Infos/InfosEduc.html', function (error, buffer) {
+
+            if (error) throw error;
+            response.writeHead(200, {"Content-Type": "text/html"});
+            response.write(buffer);
+            response.end();
+        });
+
+    } else if (request.url === "/InfosEntreprise") {
+        fs.readFile('Infos/InfosEntreprise.html', function (error, buffer) {
+
+            if (error) throw error;
+            response.writeHead(200, {"Content-Type": "text/html"});
+            response.write(buffer);
+            response.end();
+        });
+
+    } else if (request.url === "/InfosMedico") {
+        fs.readFile('Infos/InfosMedico.html', function (error, buffer) {
 
             if (error) throw error;
             response.writeHead(200, {"Content-Type": "text/html"});
