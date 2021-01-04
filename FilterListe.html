@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Design/css/FilterListe.css"> <!-- Lien entre le HTML et kes différents CSS -->
+    <link rel="stylesheet" href="Design/css/Header.css"> <!--Nous avons coupé les CSS pour que ce soit plus facile pour s'y retrouver -->
+    <link rel="stylesheet" href="Design/css/Footer.css">
+    <link rel="stylesheet" href="Design/css/Accueil.css">
+    <link rel="shortcut icon" href="Design/img/favicon.ico"> <!--Intégration Icone du site -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="FilterListe.js"></script>
+
+    <!--Police Google personnalisée -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>Liste livre</title>
+</head>
+<body>
+    <header>
+        <a class="logo" href="/"><img src="Design/img/logo.png" alt="logo"></a>
+        <!--Intégration Logo AUDITPRO -->
+        <div class="navbar-right">
+            <!--Notre barre de navigation présente dans le header, qui nous affiche les différents boutons -->
+            <a href="">Accueil</a> <!-- Bouton 1 -->
+            <a href="">Contact</a>
+            <!--Bouton 2 -->
+            <a href="https://www.auditpro.fr" class="hideMobile">Accéder à Auditpro.fr</a>
+            <!--Bouton renvoi vers Auditpro.fr -->
+        </div>
+    </header>
+
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Entrer le nom du livre..">
+
+    <ul id="myUL">
+        <li><a href="#">Livre 1</a></li>
+        <li><a href="#">Livre 2</a></li>
+
+        <li><a href="#">Livre 3</a></li>
+        <li><a href="#">Livre 4</a></li>
+
+        <li><a href="#">Livre 5</a></li>
+        <li><a href="#">Livre 6</a></li>
+        <li><a href="#">Livre 7</a></li>
+    </ul>
+</body>
+
+</html>
