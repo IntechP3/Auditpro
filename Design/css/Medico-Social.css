@@ -26,6 +26,7 @@
 
 
 #menu{
+    border: solid;
     background-color: lightgrey;;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
