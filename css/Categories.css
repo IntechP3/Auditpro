@@ -1,0 +1,130 @@
+#basis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    text-align-last: center;
+}
+
+#bienvenue{ /* Code de la DIV de bienvenue */
+    display: flex; /* Méthode Flex */
+    flex-direction: column; /* Pour diriger les textes en colonne et non en ligne */
+    align-items: center;
+}
+
+#bienvenue > h1{ /* Code titre de bienvenue */
+    font-weight: normal;
+    font-size: 26.88px;
+    margin: 0.5vh;
+}
+
+#bienvenue > p { /* Code paragraphes*/
+    font-size: 17.28px;
+    max-width: 70%;
+    text-align: center; /* Alignement des textes au centre */
+}
+
+
+#menu{
+    margin-top: 2vh;
+    display: grid;
+    background-color: #e5e5e5;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    padding: 2vh 0;
+}
+#menu > a{ /* Code élément menu */
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    padding: 2%;
+    align-items: center;
+}
+#menu > a > p{ /* Code texte bouton */
+    font-size: 23.04px;
+    font-weight: 550;
+    transition: 0.5s;
+}
+#menu > a > img{ /* Code image bouton */
+    object-fit: contain;
+    max-width: 100px;
+    max-height: 100px;
+    width: 20vw;
+    height: 20vh;
+    filter: opacity(0.8);
+    transition: 0.5s;
+}
+
+#txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 2%;
+    width: 90vw;
+}
+
+#basis > div > p{
+    font-size: 19.2px;
+    line-height: 140%;
+}
+
+#basis > div > h1{
+    font-size: 30.72px;
+    color: forestgreen;
+}
+
+#menu > a:hover > img{transform: scale(1.02) rotate(4deg); filter: opacity(1);} /* Code hover bouton */
+
+@media(max-width : 1280px){
+    #basis > div > p{
+        font-size: 17px;
+    }
+    #basis > div > h1{
+        font-size: 27.2px;
+    }
+}
+
+@media(max-width : 640px){
+    #basis > div > p{
+        font-size: 13px;
+    }
+    #basis > div > h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1280px){
+    #bienvenue > h1{
+        font-size: 21px;
+    }
+
+    #bienvenue > p{
+        font-size: 13.5px;
+        max-width: 90%;
+    }
+    #menu{
+        grid-template-columns: repeat(3,1fr);
+    }
+    #menu > a > p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 950px){ /*format petit écran*/
+    #menu{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #menu > a > img{
+        height: 190px;
+        width: 190px;
+    }
+}
+
+@media (max-width: 640px){ /*code pour width <= 550 px* format téléphone*/
+    #menu{
+        grid-template-columns: repeat(1, 80%);
+        justify-content: center;
+    }
+    #menu > a{
+        grid-template-columns: 50% 50%; /* même taille pour l'image et le txt */
+    }
+}

@@ -1,0 +1,29 @@
+header{ /* Padding de tout le header */
+    padding: 1% 1.5%;
+}
+
+.navbar-right { /* Code navbar (boutons) */
+    float: right;
+    display: grid;
+    grid-template-columns: 0.4fr 0.7fr 1fr;
+    padding-top: 1.1vh;
+}
+
+header > .navbar-right > a { /* Code textes navbar */
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+header > .navbar-right > a:hover {color: forestgreen;}
+
+
+@media (max-width: 550px){
+    header > .navbar-right{
+       grid-template-columns: 0.4fr 0.7fr 0.2fr;
+    }
+    header > .navbar-right > a{
+        padding-left: 5vw;
+    }
+}

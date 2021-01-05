@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/General.css"> <!-- Lien entre le HTML et kes différents CSS -->
+    <link rel="stylesheet" href="../css/Header.css"> <!--Nous avons coupé les CSS pour que ce soit plus facile pour s'y retrouver -->
+    <link rel="stylesheet" href="../css/Footer.css">
+    <link rel="stylesheet" href="../css/Accueil.css">
+    <link rel="shortcut icon" href="../img/favicon.ico"> <!--Intégration Icone du site -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Police Google personnalisée -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Accueil</title>
+</head>
+<body>
+<header>
+    <a class="logo" href="/"><img src="../img/logo.png" alt="logo" ></a> <!--Intégration Logo AUDITPRO -->
+    <div class="navbar-right"> <!--Notre barre de navigation présente dans le header, qui nous affiche les différents boutons -->
+        <a href="">Accueil</a> <!-- Bouton 1 -->
+        <a href="">Contact</a> <!--Bouton 2 -->
+        <a href="https://www.auditpro.fr" class="hideMobile">Accéder à Auditpro.fr</a> <!--Bouton renvoi vers Auditpro.fr -->
+    </div>
+</header>
+<div id="bienvenue"> <!--Texte Bienvenue-->
+    <h1>Bienvenue sur <em>AuditPro.org !</em></h1> <!-- "em" pour une fonction italique-->
+    <p>Ce site permet de mettre en place des outils de suivi et d'évaluation de la qualité du fonctionnement des établissments scolaires et services.
+        Il permet aux élèves, professeurs et aux personnels, de s'exprimer régulièrement au travers des questionnaires. Il propose aux directeurs
+        et aux professionnels de l'évaluation des outils non chronophages en terme de mesure de la qualité du service.
+    </p>
+    <p>Nous garantissons, par l'anonymat et le contrôle du taux de réponses aux questionnaires, la fiabilité et l'honnêteté de nos résultats.</p>
+</div>
+<div id="menu"> <!--Menu principal avec les boutons reliant aux différentes catégories du site -->
+    <a href="https://www.auditpro.fr" class="noDeco"> <!--Bouton -->
+        <img src="../img/AUDITPRO.png" alt=""> <!--Image du bouton -->
+        <p>Plateforme d'évaluation AUDITPRO.FR</p>
+    </a>
+    <a href="Medico-Social" class="noDeco"> <!--Bouton -->
+        <img src="../img/MEDICOSOCIAL.png" alt=""> <!--Image du bouton -->
+        <p>Section Médico-Social</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="/Education" class="noDeco"> <!--Bouton -->
+        <img src="../img/EDUCATION.png" alt=""> <!--Image du bouton -->
+        <p>Section Éducation</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="/Entreprise" class="noDeco"> <!--Bouton -->
+        <img src="../img/ENTREPRISE.png" alt=""> <!--Image du bouton -->
+        <p>Section Entreprise</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="" class="noDeco"> <!--Bouton -->
+        <img src="../img/REFERENCES.png" alt=""> <!--Image du bouton -->
+        <p>Nos références/avis</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="/Documentation" class="noDeco"> <!--Bouton -->
+        <img src="../img/LIVRE.png" alt=""> <!--Image du bouton -->
+        <p>Documentation</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="Access" class="noDeco"> <!--Bouton -->
+        <img src="../img/ACCESS.png" alt=""> <!--Image du bouton -->
+        <p>Accès Sécurisé</p> <!--Texte lié au bouton -->
+    </a>
+    <a href="" class="noDeco"> <!--Bouton -->
+        <img src="../img/TARIFS.png" alt=""> <!--Image du bouton -->
+        <p>Nos tarifs d'abonnement</p> <!--Texte lié au bouton -->
+    </a>
+</div>
+
+<footer> <!--Le footer avec les différentes informations de l'entreprise -->
+    <p>AuditPro SAS à capital de 19000 euros</p>
+    <p class="txtMobile"><b>Téléphone :</b> 0684358199 <br class="showMobile"> <b>E-mail :</b> gabriel.pitiot-cohen@auditpro.org <br class="showMobile"> <b>N° SIRET :</b> 801 222 365 00018</p>
+    <p>Habilitation à l’évaluation externe des ESSMS par l’ANESM décision H2014-07-1528</p> <!--Les "br" ici sont utiles pour les sauts à la ligne avec les mediaqueries -->
+</footer>
+</body>
+</html>
