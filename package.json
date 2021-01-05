@@ -1,0 +1,22 @@
+{
+  "name": "auditpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./javascript/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntechP3/Auditpro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IntechP3/Auditpro/issues"
+  },
+  "homepage": "https://github.com/IntechP3/Auditpro#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
