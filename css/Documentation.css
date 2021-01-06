@@ -12,7 +12,7 @@
 }
 
 #Listing {
-    list-style-type: none;
+    list-style-type: none; /*enlever la mise en page de base des listes*/
     padding: 0;
     width: 60%;
     margin: auto;
@@ -30,7 +30,7 @@
     text-align: center;
 }
 
-#Listing li a:hover:not(.header) {
+#Listing li a:hover { 
     background-color: #c6d6c3;
 }
 
