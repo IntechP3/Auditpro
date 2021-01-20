@@ -1,0 +1,42 @@
+
+
+body > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div > h1{
+    font-weight: normal;
+    font-size: 26.88px;
+    margin: 0.5vh;
+}
+
+div > p{
+    width: 80%;
+    text-align: justify;
+    line-height: 25px;
+}
+
+div > p > a{
+    text-decoration: none;
+    color: forestgreen;
+}
+
+div > div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+div > div > p{
+    margin: 3px;
+}
+
+#ref{
+    margin-top: 3%;
+}
+
+#entreprise{
+    text-align: center;
+}
