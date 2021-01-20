@@ -19,7 +19,7 @@ function defineContent(ContentType) { /* Fonction qui va définir le type de con
 }
 
 function displayPages(Pages) { /* Fonction qui va récupérer la page demandée */
-
+    
     switch (Pages) {
         case '':
             return './html/Accueil.html';
