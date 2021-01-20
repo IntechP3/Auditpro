@@ -12,9 +12,9 @@ div > h1{
     margin: 0.5vh;
 }
 
-div > p{
+#center > p{
     width: 80%;
-    text-align: justify;
+    text-align: center;
     line-height: 25px;
 }
 
@@ -26,6 +26,8 @@ div > p > a{
 div > div{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center; 
     width: 80%;
 }
 
@@ -34,9 +36,9 @@ div > div > p{
 }
 
 #ref{
-    margin-top: 3%;
+    margin-top: 12%;
 }
 
-#entreprise{
-    text-align: center;
+#education{
+    text-align: justify !important;
 }
