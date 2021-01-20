@@ -30,6 +30,9 @@ div > p > a{
     color: forestgreen;
 }
 
+div > p > a:hover {color: rgb(20, 78, 20);}
+
+
 div > div{
     display: flex;
     flex-direction: column;
