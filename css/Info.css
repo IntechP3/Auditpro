@@ -1,9 +1,17 @@
 
 
-body > div{
+#center{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.contact{
+    width: 50% !important;
+    margin: 0 25% !important;
+    box-shadow: 1px 1px 30px grey;
 }
 
 div > h1{
@@ -13,9 +21,8 @@ div > h1{
 }
 
 #center > p{
-    width: 80%;
     text-align: center;
-    line-height: 25px;
+    line-height: 23px;
 }
 
 div > p > a{
@@ -28,7 +35,6 @@ div > div{
     flex-direction: column;
     align-items: center;
     text-align: center; 
-    width: 80%;
 }
 
 div > div > p{
@@ -41,4 +47,11 @@ div > div > p{
 
 #education{
     text-align: justify !important;
+}
+
+@media(max-width: 1100px){
+    .contact{
+        width: 90% !important;
+        margin: 0 5% !important;  
+    }
 }
