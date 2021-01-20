@@ -791,9 +791,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.15.4" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -815,6 +821,8 @@
       <workItem from="1610386564058" duration="423000" />
       <workItem from="1610387013505" duration="322000" />
       <workItem from="1610471121993" duration="895000" />
+      <workItem from="1610628900725" duration="1658000" />
+      <workItem from="1611009894797" duration="1216000" />
     </task>
     <servers />
   </component>
